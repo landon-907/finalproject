@@ -3,13 +3,11 @@ import "../styles/global.css";
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
-import BaseLayout from './BaseLayout.astro';
 const { pageTitle } = Astro.props;
 ---
 
 <html lang="en">
 	<head>
-        <BaseLayout pageTitle={frontmatter.title}></BaseLayout>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
